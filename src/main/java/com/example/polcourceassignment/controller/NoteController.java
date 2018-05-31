@@ -69,9 +69,7 @@ public class NoteController {
         updateNote.delTag(setTag);
         noteRespoitory.save(updateNote);
 
-        return noteRespoitory.findAll(); //coś nie działa :(
+        return noteRespoitory.findAll();
     }
-
-
 
 }
