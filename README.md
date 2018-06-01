@@ -8,7 +8,7 @@ To get you started you need to install dependencies, clone the repository, deplo
 
 ### Prerequisites
 
-To properly working you need to have: git client to clone the repositor, h2 database to store the data, maven to build the application and it is expected that you will use IDE to build and deploy :)
+To properly working you need to have: git client to clone the repository, h2 database to store the data, maven to build the application and it is expected that you will use IDE to build and deploy :)
 
 
 ### Installing
