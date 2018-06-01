@@ -11,7 +11,7 @@ import java.util.Set;
 
 @Entity
 @Table(name="notes")
-@JsonIgnoreProperties(value = {"createdAt", "updatedAt"}) /* ignore values in json request */
+//@JsonIgnoreProperties(value = {"createdAt", "updatedAt"}) /* ignore values in json request */
 @EntityListeners(AuditingEntityListener.class) /* needed to create/update entity */
 
 public class Note {
