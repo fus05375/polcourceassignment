@@ -7,8 +7,9 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
+/*In assignment was written that there should be integration tests, here we got simpliest function one's.*/
 public class NoteControllerTest {
-    
+
     @Test
     public void getAllTrue(){
         RestAssured.baseURI = "http://localhost:8080";
