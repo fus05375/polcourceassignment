@@ -8,9 +8,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 public class NoteControllerTest {
-
-
-
+    
     @Test
     public void getAllTrue(){
         RestAssured.baseURI = "http://localhost:8080";
