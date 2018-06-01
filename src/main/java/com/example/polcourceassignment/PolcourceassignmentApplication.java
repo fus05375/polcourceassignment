@@ -6,8 +6,11 @@ import com.example.polcourceassignment.repository.NoteRespoitory;
 import com.example.polcourceassignment.repository.TagRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 import java.util.HashSet;
@@ -16,6 +19,10 @@ import java.util.Set;
 
 @EnableJpaAuditing /* needed to create/update entity */
 @SpringBootApplication
+
+@Configuration
+@ComponentScan
+@EnableAutoConfiguration
 public class PolcourceassignmentApplication {
 
     public static void main(String[] args) {

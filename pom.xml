@@ -84,6 +84,7 @@
             <artifactId>rest-assured</artifactId>
             <version>3.0.7</version>
         </dependency>
+
     </dependencies>
 
     <build>
