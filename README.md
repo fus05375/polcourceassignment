@@ -19,7 +19,7 @@ To properly working you need to have: git client to clone the repository, h2 dat
     git clone https://github.com/fus05375/polcourceassignment.git
     ```
 
-1. Use your favorite IDE to deploy and run the application. Particularly, for this project were used IntelliJ IDEA.
+2. Use your favorite IDE to deploy and run the application. Particularly, for this project were used IntelliJ IDEA.
 
 ## API Endpoints
 There are two main services, **notes** and **tags**
@@ -44,13 +44,13 @@ http://localhost:8080/h2
 You can list all users notes/tags a GET request to ```/notes/all``` or ```/tags/all```
 
 ### Create note/tag
-You can create an new note/tag making a POST request to ```/notes/create``` or ```/tags/create``` with the following parameters
+You can create a new note/tag making a POST request to ```/notes/create``` or ```/tags/create``` with the following parameters
 ```
 { "title": "New note", "content": "What a beautiful day " }
 ```
 
 ```
-{ "title": "UrgentXXXXXXXXXXXXXX" }
+{ "title": "Basic" }
 ```
 
 ### Delete note/tag
@@ -62,10 +62,10 @@ You can update an existing user making a PUT request to ```/notes/update/{id}```
 { "title": "Update note", "content": "What a lovely day " }
 ```
 ### Set tag to notes
-You can set tag for a specific note, making a PUT request to ```/notes/update/{id}/addTag/{id}```
+You can set a tag for a specific note, making a PUT request to ```/notes/update/{id}/addTag/{id}```
 
 ### Remove tag from note
-You can remove tag from a specific note, making a PUT request to ```/notes/update/{id}/delTag/{id}```
+You can remove a tag from a specific note, making a PUT request to ```/notes/update/{id}/delTag/{id}```
 
 
 
